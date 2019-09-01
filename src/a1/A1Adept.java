@@ -78,7 +78,7 @@ public class A1Adept {
 			averageTotal += customerTotals[i];
 		}
 		
-		System.out.println("Average: " + String.format("%.2f", averageTotal / 3)); //prints the average amount spent by each customer
+		System.out.println("Average: " + String.format("%.2f", averageTotal / numberOfCustomers)); //prints the average amount spent by each customer
 	}
 	
 
